@@ -1,0 +1,261 @@
+.clr:after{clear: both;content:'.';display: block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0;}
+@media screen and (max-width: 767px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
+
+#wpbody-content .dashicons, 
+#wpbody-content .dashicons-before::before{
+	font-size: initial;
+	height: auto;
+	line-height: 1;
+	vertical-align: middle;
+}
+.button-primary a{
+	color:#fff;
+}
+/* 描述 */
+.description{
+	padding-left:1rem;
+}
+/**
+ * setting updated
+ */
+#settings-updated{
+	margin-top:10px;
+}
+
+/** 
+ * .tip-status
+ */
+.tip-status{
+	position:relative;
+	padding:.3rem .5rem;
+	border-radius:2px;
+	margin-bottom:10px;
+	border: 1px solid rgba(0,0,0,.1);
+}
+	/** 
+	 * .ui-dialog-content
+	 */
+	.ui-dialog-content > .tip-status{
+		background:none;
+		border: none;
+	}
+	/** 
+	 * type
+	 */
+	.tip-status-success,
+	.tip-status-green{background:#defcd5;color:#52a954}
+	
+	.tip-status-error,
+	.tip-status-ban{background:#f1d7d7;color:#a95252}
+	
+	.tip-status-warning{background:#f6f3d5;color:#96904d}
+	
+	.tip-status-help,
+	.tip-status-blue,
+	.tip-status-info{background:#e6f4f9;color:#4d8796}
+	.tip-status-question{background:#FBEC88;color:#363636}
+	
+	.tip-status-spinner,
+	.tip-status-loading{background:#f5f5f5}
+	/** 
+	 * size 
+	 */
+	.tip-status-middle{font-size:1.5rem}
+	.tip-status-large{font-size:2rem}
+
+	
+	
+fieldset{
+	margin-bottom:20px;
+	max-width:100%;
+	overflow:hidden;
+	border:1px solid rgb(220,220,220);
+	padding:20px;
+	padding-top:10px;
+	border-radius:3px;
+	background:rgb(245,245,245);
+	background:linear-gradient(rgb(250,251,253),rgb(245,245,245));
+	background:-moz-linear-gradient(rgb(250,251,253),rgb(245,245,245));
+	background:-webkit-linear-gradient(rgb(250,251,253),rgb(245,245,245));
+	background:-o-linear-gradient(rgb(250,251,253),rgb(245,245,245));
+	background:-webkit-gradient(linear,from(rgb(250,251,253)),to(rgb(245,245,245)));
+
+	box-shadow:0 0 0 1px white inset;
+
+	
+}
+	fieldset legend{
+		margin-left:10px;
+		margin-top:5px;
+		padding:10px 20px;
+		background:rgb(245,245,245);
+		background:linear-gradient(rgb(250,251,253),rgb(245,245,245));
+		background:-moz-linear-gradient(rgb(250,251,253),rgb(245,245,245));
+		background:-webkit-linear-gradient(rgb(250,251,253),rgb(245,245,245));
+		background:-o-linear-gradient(rgb(250,251,253),rgb(245,245,245));
+		background:-webkit-gradient(linear,from(rgb(250,251,253)),to(rgb(245,245,245)));
+		border:1px solid #DDD;
+		color:rgb(33, 117, 155);
+		text-shadow:0 1px 0 white;
+		border-radius:3px;
+		font-weight:bold;
+		font-size:15px;
+		box-shadow:0 0 6px rgba(0,0,0,0.05),0 0 0 1px white inset;
+
+	}
+@media screen and (-webkit-min-device-pixel-ratio:0){fieldset legend{border-top-width:2px;}}
+fieldset:hover{
+	background:rgb(245,245,245);
+	background:linear-gradient(rgb(245,245,245),rgb(250,251,253));
+	background:-moz-linear-gradient(rgb(245,245,245),rgb(250,251,253));
+	background:-webkit-linear-gradient(rgb(245,245,245), rgb(250,251,253));
+	background:-o-linear-gradient(rgb(245,245,245), rgb(250,251,253));
+	background:-webkit-gradient(linear,from(rgb(245,245,245)),to(rgb(250,251,253)));
+}
+	fieldset:hover > legend{
+		color:#D54E21;
+	}
+h3{
+	padding:10px;
+	background:rgb(250,251,253);
+	border:1px solid #DDD;
+	color:rgb(33, 117, 155);
+	text-shadow:0 1px 0 white;
+	border-radius:3px;
+}
+
+/* kandyTabs custom */
+#backend-tab{
+	display:none;
+}
+/* tab 按钮盒*/
+	#backend-tab .tabtitle{
+		margin-bottom:-1px;
+	}
+		/* tab 按钮*/
+		#backend-tab .tabtitle .tabbtn{
+			display:inline-block;
+			background:rgb(245,245,245);
+			border:1px solid #DDD;
+			padding:.5rem 1rem;
+			box-shadow:0 1px 0 0 white inset;
+			margin-left: 5px;
+			cursor:pointer;
+			color:#B4B4B4;
+			text-shadow:0 1px 0 white;
+			border-radius: 5px 5px 0 0;
+		}
+		#backend-tab .tabtitle .tabbtn:hover{
+			background:rgb(245,245,245);
+			background:linear-gradient(rgb(245,245,245),rgb(250,251,253));
+			background:-moz-linear-gradient(rgb(245,245,245),rgb(250,251,253));
+			background:-webkit-linear-gradient(rgb(245,245,245), rgb(250,251,253));
+			background:-o-linear-gradient(rgb(245,245,245), rgb(250,251,253));
+			background:-webkit-gradient(linear,from(rgb(245,245,245)),to(rgb(250,251,253)));
+			color:#D54E21;
+		}
+		/* tab 当前按钮*/
+		#backend-tab .tabtitle .tabcur{
+			background:rgb(250,251,253);
+			background:linear-gradient(rgb(245,245,245),rgb(250,251,253));
+			background:-moz-linear-gradient(rgb(245,245,245),rgb(250,251,253));
+			background:-webkit-linear-gradient(rgb(245,245,245),rgb(250,251,253));
+			background:-o-linear-gradient(rgb(245,245,245), rgb(250,251,253));
+			background:-webkit-gradient(linear,from(rgb(245,245,245)),to(rgb(250,251,253)));
+			border-bottom:1px solid rgb(250,251,253);
+			color:#21759B;
+			cursor:default;
+			position:relative;
+			z-index:2;
+		}
+		#backend-tab .tabtitle .tabcur:hover{
+			background:rgb(250,251,253);
+			background:linear-gradient(rgb(245,245,245),rgb(250,251,253));
+			background:-moz-linear-gradient(rgb(245,245,245),rgb(250,251,253));
+			background:-webkit-linear-gradient(rgb(245,245,245), rgb(250,251,253));
+			background:-o-linear-gradient(rgb(245,245,245), rgb(250,251,253));
+			background:-webkit-gradient(linear,from(rgb(245,245,245)),to(rgb(250,251,253)));
+			color:#21759B;
+		}
+	/* tab 内容盒子*/
+	#backend-tab .tabbody{
+		position:relative;
+		background:rgb(250,251,253);
+		margin-left:0;
+		padding:10px 20px 0 20px;
+		border:1px solid #DDD;
+		overflow:hidden;
+		box-shadow:0 0px 3px rgba(0,0,0,0.1);
+		border-radius:6px;
+		z-index:1;
+	}
+		#backend-tab .tabbody .tabcont{
+			margin-left:0;
+			background:rgb(250,251,253);
+		}
+
+.tab-title{
+	display: none;
+	float: left;
+	padding:.5rem 1rem;
+	font-weight: bold;
+	color:rgb(200,200,200);
+	text-shadow: 0 1px 0 white;
+}
+
+
+
+.none,
+.hide{
+	display:none;
+}
+
+input.text-select{
+	width:10em;
+	text-align:center;
+	cursor:pointer;
+}
+textarea.text-code{
+	width:80%;
+	height:10em;
+}
+
+/* reset_options */
+.label-options-restore{
+	color:#BC0B0B;
+	cursor:help;
+	float:right;
+}
+html #wpadminbar{
+	z-index:100;
+}
+.long-text{
+	width:99%;
+}
+
+html .regular-text:hover{
+	border-color:#A0A0A0 #B9B9B9 #B9B9B9;
+}
+
+#backend-tab .tabbtn .tx{
+	display: none;
+}
+
+
+@media (min-width: 768px){
+	#backend-tab .tabbtn .tx{
+		display: inline;
+	}
+	.tabnav-container{
+		display: block;
+	}
+
+	.tab-title{
+		display: block;
+	}
+}

@@ -1,0 +1,20 @@
+
+.hidoveimage-backup-progress{
+	position: relative;
+}
+#hidoveimage-backup-area{
+}
+.hidoveimage-progress{
+	position:relative;
+}
+.hidoveimage-progress-bar{
+	position:absolute;
+	display:none;
+	width:0;
+	left:0;
+	bottom:0;
+	height:3px;
+	background:rgb(0, 116, 162);
+	border-radius:99px;
+	z-index:1;
+}
